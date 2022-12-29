@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/trybetunes/static/css/main.78a538f3.chunk.css",
-    "main.js": "/trybetunes/static/js/main.6492c0f2.chunk.js",
-    "main.js.map": "/trybetunes/static/js/main.6492c0f2.chunk.js.map",
-    "runtime-main.js": "/trybetunes/static/js/runtime-main.a6c38cb8.js",
-    "runtime-main.js.map": "/trybetunes/static/js/runtime-main.a6c38cb8.js.map",
-    "static/js/2.bcc64ed9.chunk.js": "/trybetunes/static/js/2.bcc64ed9.chunk.js",
-    "static/js/2.bcc64ed9.chunk.js.map": "/trybetunes/static/js/2.bcc64ed9.chunk.js.map",
-    "index.html": "/trybetunes/index.html",
-    "static/css/main.78a538f3.chunk.css.map": "/trybetunes/static/css/main.78a538f3.chunk.css.map",
-    "static/js/2.bcc64ed9.chunk.js.LICENSE.txt": "/trybetunes/static/js/2.bcc64ed9.chunk.js.LICENSE.txt"
+    "main.css": "/wallet/static/css/main.78a538f3.chunk.css",
+    "main.js": "/wallet/static/js/main.6492c0f2.chunk.js",
+    "main.js.map": "/wallet/static/js/main.6492c0f2.chunk.js.map",
+    "runtime-main.js": "/wallet/static/js/runtime-main.c521f881.js",
+    "runtime-main.js.map": "/wallet/static/js/runtime-main.c521f881.js.map",
+    "static/js/2.bcc64ed9.chunk.js": "/wallet/static/js/2.bcc64ed9.chunk.js",
+    "static/js/2.bcc64ed9.chunk.js.map": "/wallet/static/js/2.bcc64ed9.chunk.js.map",
+    "index.html": "/wallet/index.html",
+    "static/css/main.78a538f3.chunk.css.map": "/wallet/static/css/main.78a538f3.chunk.css.map",
+    "static/js/2.bcc64ed9.chunk.js.LICENSE.txt": "/wallet/static/js/2.bcc64ed9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6c38cb8.js",
+    "static/js/runtime-main.c521f881.js",
     "static/js/2.bcc64ed9.chunk.js",
     "static/css/main.78a538f3.chunk.css",
     "static/js/main.6492c0f2.chunk.js"
