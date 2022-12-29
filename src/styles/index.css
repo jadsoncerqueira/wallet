@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap') ;
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  color: var(--text-primary-color);
+  font-family: var(--main-font);
+  font-size: var(--fs-m);
+  list-style-type: none;
+  margin: 0;
+
+  /* outline: 1px solid red; */
+  padding: 0;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: var(--fs-l);
+  font-weight: 700;
+}
+
+h2 , h3 {
+  font-size: var(--fs-m);
+  font-weight: 700;
+
+}
+
+input , button , select {
+  border: 2px solid var(--theme);
+  border-radius: 10px;
+  padding: calc(var(--padding) / 3);
+}
+
+select {
+  background-color: white;
+  color: var(--text-primary-color);
+}
+
+button {
+  background-color: var(--theme);
+  font-weight: 700;
+}
+
+button:enabled:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+td , th {
+  max-width: 250px;
+  padding: 10px;
+  text-align: center;
+}
+
+:root {
+
+  --theme: #0b9ad3;
+
+  --text-primary-color: rgb(22, 22, 22);
+
+  --primary-color: rgb(244, 244, 244);
+
+  --bg-color: rgb(235, 235, 235);
+
+  --main-font: 'Ubuntu Mono', monospace;
+
+  --fs-s: clamp(12px, calc(0.2rem + 1vw), 30px);
+
+  --fs-m: clamp(16px, calc(0.3rem + 1vw), 40px);
+
+  --fs-l: clamp(20px, calc(1rem + 1vw), 60px);
+
+  --fs-xl: clamp(34px, calc(2rem + 1vw), 100px);
+
+  --gap: clamp(10px, 1.5vw, 40px);
+
+  --padding: clamp(20px, 1vw, 50px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: warp;
+}
+
+.gap {
+  gap: var(--gap);
+}
+
+.txt-gap {
+  gap: calc(var(--gap) / 5);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.space-b {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.theme-bg {
+  background-color: var(--theme);
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+}
+
+.primary {
+  background-color: var(--theme);
+  overflow: hidden;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.secondary {
+  background-color: var(--primary-color);
+}
+
+.round {
+  background-color: rgb(0, 212, 0);
+  border: none;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+.shadow {
+  box-shadow: 0 2.8px 3.6px rgba(0, 0, 0, 0.028),
+    0 7.6px 10px rgba(0, 0, 0, 0.04),
+    0 18.4px 24.1px rgba(0, 0, 0, 0.052),
+    0 61px 80px rgba(0, 0, 0, 0.08);
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.absolute-center {
+  border: 3px solid var(--theme);
+  border-radius: 10px;
+  gap: var(--gap);
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pad {
+  padding: var(--padding);
+}
